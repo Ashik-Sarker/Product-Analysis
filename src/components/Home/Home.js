@@ -1,6 +1,12 @@
-import React from 'react';
+// import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import useReview from '../../hooks/useReview';
+import Customer from '../Customer/Customer';
 
 const Home = () => {
+    // using custom hook
+    const [reviews, setReviews] = useReview();
+
     return (
         <div>
             <div className = 'mt-12 h-full grid grid-cols-1 md:grid-cols-2 justify-center items-center text-center'>
@@ -14,13 +20,25 @@ const Home = () => {
                     <img src="images/envey.png" alt="" />
                 </div>
             </div>
+
             {/* Customer review */}
-            <div className='border-2 md:mt-16 mt-8 text-center py-8'>
+            <div className='m-20 md:mt-16 mt-8 text-center py-8'>
                 <div>
                     <h1 className='md:text-4xl text-2xl mb-8'>Customer Review</h1>
+                    <div className='grid grid-cols-3'>
+                        {
+                            reviews.slice(0,3).map(customer => <Customer
+                                key={customer.id}
+                                customer = {customer}
+                            ></Customer>)
+                        }  
+                    </div>
                 </div>
+                
                 <div>
-                    <button className='my-8 text-2xl rounded-lg text-white px-12 py-3 bg-orange-400 font-bold font-serif'>See All Review</button>
+                    <Link to={"/reviews"}>
+                        <button className='my-8 text-2xl rounded-lg text-white px-12 py-3 bg-orange-400 font-bold font-serif'>See All Review</button>
+                    </Link>
                 </div>
             </div>
         </div>
