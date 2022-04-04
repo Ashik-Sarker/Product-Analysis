@@ -22,10 +22,10 @@ const Home = () => {
             </div>
 
             {/* Customer review */}
-            <div className='m-20 md:mt-16 mt-8 text-center py-8'>
+            <div className='md:m-20 m-6 md:mt-16 mt-8 text-center py-8'>
                 <div>
                     <h1 className='md:text-4xl text-2xl mb-8'>Customer Review</h1>
-                    <div className='grid grid-cols-3'>
+                    <div className='grid grid-cols-1 md:grid-cols-3'>
                         {
                             reviews.slice(0,3).map(customer => <Customer
                                 key={customer.id}

@@ -12,9 +12,9 @@ const Dashboard = () => {
     }, [])
     
     return (
-        <div className='border p-8 m-12 grid md:grid-cols-2 grid-cols-1 gap-12'>
-            <div>
-                <LineChart width={600} height={300} data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+        <div className='md:border md:m-24 md:p-16 bg-slate-100 m-12 grid md:grid-cols-2 grid-cols-1 gap-12 justify-center items-center'>
+            <div className='mt-24'>
+                <LineChart width={400} height={300} data={chartData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                     <XAxis dataKey="month" />
@@ -23,8 +23,8 @@ const Dashboard = () => {
                 </LineChart>
             </div>
 
-            <div>
-                <AreaChart width={600} height={300} data={chartData}
+            <div className='mt-24'>
+                <AreaChart width={400} height={300} data={chartData}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">

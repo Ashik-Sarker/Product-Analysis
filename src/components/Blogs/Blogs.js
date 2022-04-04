@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='border m-24 p-8 grid grid-cols-3'>
+        <div className='border md:m-24 p-8 grid grid-cols-1 md:grid-cols-3'>
             <div className='border m-12 p-6'>
                 <b>Q1. What is Semantic Tag and give some examples ?</b>
                 <br /><br />

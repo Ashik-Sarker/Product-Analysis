@@ -7,10 +7,10 @@ const Review = () => {
     const [reviews, setReviews] = useReview();
 
     return (
-        <div className='text-center m-24'>
-            <h1 className='md:text-4xl text-2xl mb-8'>Customer Review</h1>
+        <div className='text-center mt-12 md:m-24'>
+            <h1 className='text-4xl font-bold mb-8 text-orange-600'>Customer Review</h1>
   
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-1 md:grid-cols-3'>
                 {
                     reviews.map(customer => <Customer
                     key={customer.id}
