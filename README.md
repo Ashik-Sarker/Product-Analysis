@@ -1,7 +1,7 @@
 # Laptop Bazar
-## Visit Our Site
+## Visit Our Live Site
 
-[Laptop Bazar Live site](http://localhost:3000)
+[Go Live](https://app.netlify.com/sites/product-analysisi-and-review/overview)
 
 ## What I have done this project?
 * Create Navbar and menu which is a component named Header.
