@@ -3,48 +3,56 @@
             "id": 11,
             "name": "Md. Ashik Sarker",
             "profession": "Engineer",
+            "ratings":"5",
             "review": "Hy, This is a very thin and performance oriented Laptop. Recently I have purchased this Laptop. I have been travel a lot of area thats why this is been very easy to carry for me."
         },
         {
             "id": 12,
             "name": "Jhanker Mahabub",
             "profession": "Engineer",
+            "ratings":"4.5",
             "review": "Hy, This is a very thin and performance oriented Laptop. Recently I have purchased this Laptop. I have been travel a lot of area thats why this is been very easy to carry for me."
         },
         {
             "id": 13,
             "name": "Dr. Dewan Farid",
             "profession": "Engineer",
+            "ratings":"4.8",
             "review": "Hy, This is a very thin and performance oriented Laptop. Recently I have purchased this Laptop. I have been travel a lot of area thats why this is been very easy to carry for me."
         },
         {
             "id": 14,
             "name": "Shawkkhar Shatabdo",
             "profession": "Engineer",
+            "ratings":"4.7",
             "review": "Hy, This is a very thin and performance oriented Laptop. Recently I have purchased this Laptop. I have been travel a lot of area thats why this is been very easy to carry for me."
         },
         {
             "id": 15,
             "name": "Salekul Islam",
             "profession": "Engineer",
+            "ratings":"5",
             "review": "Hy, This is a very thin and performance oriented Laptop. Recently I have purchased this Laptop. I have been travel a lot of area thats why this is been very easy to carry for me."
         },
         {
             "id": 16,
             "name": "Professor. Dr. Karim",
             "profession": "Engineer",
+            "ratings":"4.2",
             "review": "Hy, This is a very thin and performance oriented Laptop. Recently I have purchased this Laptop. I have been travel a lot of area thats why this is been very easy to carry for me."
         },
         {
             "id": 17,
             "name": "Kunal ahamed",
             "profession": "Engineer",
+            "ratings":"4.5",
             "review": "Hy, This is a very thin and performance oriented Laptop. Recently I have purchased this Laptop. I have been travel a lot of area thats why this is been very easy to carry for me."
         },
         {
             "id": 18,
             "name": "Shafat Ahamed",
             "profession": "Engineer",
+            "ratings":"4.9",
             "review": "Hy, This is a very thin and performance oriented Laptop. Recently I have purchased this Laptop. I have been travel a lot of area thats why this is been very easy to carry for me."
         }
     ]
