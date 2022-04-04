@@ -1,7 +1,7 @@
 # Laptop Bazar
 ## Visit Our Live Site
 
-[Go Live](https://app.netlify.com/sites/product-analysisi-and-review/overview)
+[Go Live](https://product-analysisi-and-review.netlify.app/)
 
 ## What I have done this project?
 * Create Navbar and menu which is a component named Header.
